@@ -1,0 +1,21 @@
+.cases-outer-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profileImage{
+    width: 200px;
+    height: 250px;
+}
+.card{
+    margin-top:20px;
+    border:2px solid #1B6ABB;
+    padding:20px;
+    margin-right: 15px;
+}

@@ -1,0 +1,118 @@
+.bgContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .Outer-Container1{
+    background-color:#f8f7ff;
+    width: 45vw;
+    height: 100vh;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .Inner-Container1{
+    background-color:#1b6abb;
+    z-index: 1;
+    box-shadow: -8px 3px 25px 1px rgba(0,0,0,0.75);
+    height: 80vh;
+    width: 90%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+  }
+  
+  .Outer-Container2{
+    background-color:#f8f7ff;
+    width: 55vw;
+    height: 100vh;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Inner-Container2{
+    z-index: 1;
+    box-shadow: 6px 0px 15px -5px  rgba(0,0,0,0.75); 
+    height: 80vh;
+    width: 96%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f8f7ff;
+  }
+  .logo-container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .kjl{
+    color: #f8f7ff;
+  }
+
+  .logo{
+      width: 100px;
+      height: 100px;
+      color:#f8f7ff;
+  }
+  .login-container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 60%;
+  }
+  .label{
+    font-size: 18px;
+    color:#023e8a;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: start;
+  }
+
+  .input{
+    border: 2px solid #1b6abb;
+    background-color: transparent;
+    width: 480px;
+    padding:18px;
+    height:20px;
+    outline: #000000;
+    color:#1b6abb;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 90%;
+  }
+  .head{
+      color:#1b6abb;
+  }
+ .button{
+    margin-top: 10px;
+    background-color: #1b6abb;
+    width: 480px;
+    height: 40px;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 90%;
+ }
+ .jkll{
+   margin-top: 10px;
+   color:#f8f7ff;
+   font-size: 28px;
+ }

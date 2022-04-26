@@ -1,0 +1,39 @@
+.Form{
+    margin-right: 25px;
+}
+.Inner-form
+{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 70px;
+    border: 1px solid green;  
+    padding: 10px;
+    
+}
+input
+{
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+Label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    color:#66AD47;
+    font-size: large; 
+    margin-top: 5px;       
+}
+div{
+    margin-bottom: 20px;
+}
+button{
+    margin-left: 20px;
+    width: 60px;
+    margin-left: 200px;
+}
+textarea
+{
+    margin-left: 15px;
+}
